@@ -6,7 +6,7 @@ body,.display{
 .grid{
     width: 680px;
     height: 680px;
-    background-image: url('images.jfif');
+    background-image: url('background.jfif');
     position:relative; 
     text-align: center;
     font-size: 32px;
