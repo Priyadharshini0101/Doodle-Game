@@ -1,0 +1,47 @@
+body,.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid{
+    width: 680px;
+    height: 680px;
+    background-image: url('images.jfif');
+    position:relative; 
+    text-align: center;
+    font-size: 32px;
+}
+.doodler{
+    width: 60px;
+    height: 85px;
+    content: url('doodle.png');
+    position: absolute;
+}
+.platform{
+    width: 85px;
+    height: 15px;
+    background-color: green;
+    position: absolute;
+}
+.button{
+    font-size: 14px;  
+    margin-top: 20px;
+    color:white;
+    background-color: green;
+    border-radius: 3px;
+    border-color: grey;
+    font-size: 16px;
+    margin:16px;
+    padding: 8px;
+}
+.result{
+    display: block;
+}
+
+#btn{
+    top:0%;
+    right:0%;
+    position: fixed;
+}
+
+
